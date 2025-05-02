@@ -172,11 +172,11 @@ export default function EmergencyReportDialog() {
               <Button 
                 type="button" 
                 variant="outline"
-                onClick={() => window.location.href = `tel:112`}
+                onClick={() => window.location.href = `tel:+254745343256`}
                 className="gap-2"
               >
                 <Phone className="w-4 h-4" />
-                Call Emergency Services (112)
+                Call Emergency Services (+254 745 343256)
               </Button>
             </div>
           </form>

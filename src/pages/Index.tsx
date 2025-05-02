@@ -26,11 +26,12 @@ const Index = () => {
       UK: '999',
       AU: '000',
       JP: '110',
+      KE: '+254745343256',
     }
   };
 
   const handleEmergencyCall = () => {
-    window.location.href = `tel:${emergencyNumbers.general.EU}`;
+    window.location.href = `tel:${emergencyNumbers.general.KE}`;
   };
 
   const navButtons = (
